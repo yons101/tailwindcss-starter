@@ -9,5 +9,6 @@ module.exports = {
     },
     variants: {},
     plugins: [],
-    purge: false
+    purge: false,
+    important: true
 };
