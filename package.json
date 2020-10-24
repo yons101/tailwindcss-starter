@@ -1,0 +1,24 @@
+{
+    "name": "tailwind",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss tailwind.css -o style.css",
+        "tailwind-dev": "cross-env NODE_ENV=development postcss tailwind.css -o public/assets/css/tailwind.css",
+        "tailwind-prod": "cross-env NODE_ENV=production postcss tailwind.css -o public/assets/css/tailwind.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^1.2.0",
+        "autoprefixer": "^9.5.1",
+        "cross-env": "^5.2.0",
+        "cssnano": "^4.1.10",
+        "postcss-cli": "^7.1.1",
+        "postcss-preset-env": "^6.7.0",
+        "tailwindcss": "^1.9.4"
+    }
+}
